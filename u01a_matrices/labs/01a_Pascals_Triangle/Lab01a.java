@@ -1,18 +1,22 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
 //Lab  -
 
-import static java.lang.System.*;
-import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
+import static java.lang.System.*;
 
 public class Lab01a
 {
 	public static void main( String args[] ) throws IOException
 	{
-		//add code and test cases here
+      PascalsTriangle t = new PascalsTriangle(4);
+      t.toString();
+      t.createTriangle();
+      out.println(t);
+
+
 	}
 }
+

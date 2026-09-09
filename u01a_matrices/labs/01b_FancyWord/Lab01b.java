@@ -1,4 +1,4 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -14,5 +14,9 @@ public class Lab01b
 	public static void main( String args[] ) throws IOException
 	{
 		//add code and test cases here
+      FancyWord word = new FancyWord("Doggie");
+      out.println(word.toString());
+      
 	}
 }
+
