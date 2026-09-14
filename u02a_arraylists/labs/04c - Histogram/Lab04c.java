@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -17,12 +17,14 @@ public class Lab04c
 	{
 		Histogram test = new Histogram(new char[]{'a','b','c'},"lab04c1.dat");
 		test.loadAndAnalyzeFile();
+      test.toString();
 		out.println("Letter occurring most : "+test.mostFrequent());
-		out.println("Letter occurring least : "+test.leastFrequent());
+		
+      out.println("Letter occurring least : "+test.leastFrequent());
 		out.println("\n");
 		out.println(test);
 
-
+      
 		test = new Histogram(new char[]{'d','e','a'},"lab04c2.dat");
 		test.loadAndAnalyzeFile();
 		out.println("Letter occurring most : "+test.mostFrequent());
@@ -36,5 +38,6 @@ public class Lab04c
 		out.println("Letter occurring least : "+test.leastFrequent());
 		out.println("\n");
 		out.println(test);
-	}
+	   
+   }
 }
