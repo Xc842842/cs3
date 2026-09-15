@@ -53,7 +53,7 @@ public class Histogram
       int current = 0;
       int L = 0;
       
-      for(int k = 0; k < 3; k++)
+      for(int k = 0; k < letters.size(); k++)
       {
          scan = new Scanner(n);
          cur = 0;
