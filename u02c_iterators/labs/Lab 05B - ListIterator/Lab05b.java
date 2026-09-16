@@ -28,13 +28,12 @@ public class Lab05b
       out.println(test);
 
 
-      test = new ListIteratorTest("one two three two four");
+      test = new ListIteratorTest("1 2 3 4 5 6 a b c a b c");
       out.println(test);
 
-      test.setTest("two");
-      out.println(test);
 
-      test.replace("three", "THREE");
+
+      test.replace("b", "#");
       out.println(test);
 
 
