@@ -1,4 +1,4 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -10,6 +10,11 @@ public class Lab09b
 {
 	public static void main(String args[])
 	{
-		//add test cases		
+		//add test cases	
+      AtCounter atter = new AtCounter();
+      atter.countAts(3, 1);
+      atter.toString();
+      out.println(atter);	
 	}
 }
+
